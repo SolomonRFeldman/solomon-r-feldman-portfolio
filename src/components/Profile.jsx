@@ -7,6 +7,7 @@ export default function Profile(props) {
       <img className='Profile-picture' alt='Profile' width="300" src='../profile_picture.png' />
       <div className='Profile-name-container'>
         <h1 className='Profile-name'>Solomon Raphael Feldman</h1>
+        <h2 className='Profile-title'>Full Stack Engineer</h2>
         <hr className='Profile-horizontal-rule'/>
         <p className='Profile-bio'>
           Full Stack Web Developer with a passion for developer friendly code and user friendly websites. 
