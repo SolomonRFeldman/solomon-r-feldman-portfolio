@@ -41,3 +41,24 @@
   padding: 17px;
   color: #333;
 }
+
+.Profile-github {
+  display: block;
+  color: #fff;
+  background-color: #232121;
+  padding: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  height: 24px;
+  width: fit-content;
+}
+
+.Profile-github-text {
+  text-align: center;
+  position: relative;
+  margin-left: 8px;
+  font-weight: 600;
+  bottom: 6px;
+}

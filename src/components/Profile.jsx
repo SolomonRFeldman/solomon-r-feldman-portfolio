@@ -18,6 +18,10 @@ export default function Profile(props) {
           not only for the sake of others, but for his own ability to maintain and add on to his own code.
         </p>
         <hr className='Profile-horizontal-rule'/>
+        <a href='https://github.com/SolomonRFeldman' target="_blank" className='Profile-github'>
+          <img height="24" src='../GitHub-Mark-Light-32px.png' />
+          <span className='Profile-github-text'>Solomon's GitHub</span>
+        </a>
       </div>
     </div>
   )
