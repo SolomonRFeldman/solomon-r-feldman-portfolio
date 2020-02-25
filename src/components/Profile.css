@@ -1,11 +1,33 @@
-.Profile {
-  display: grid;
-  grid-template-columns: 300px 20px auto;
+@media only screen and (min-width: 1024px) {
+  .Profile {
+    display: grid;
+    grid-template-columns: 300px 20px auto;
+    grid-template-rows: 70px auto;
+  }
+
+  .Profile-name-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .Profile-bio-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
 }
 
-.Profile-name-container {
-  grid-column-start: 3;
-  grid-column-end: 4;
+@media only screen and (max-width: 1023px) {
+  .Profile {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: auto 455px auto;
+  }
+  .Profile-name-container {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 
 .Profile-name {
@@ -20,6 +42,7 @@
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 10px;
 }
 
 .Profile-title {
