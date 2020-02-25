@@ -24,9 +24,19 @@
     grid-template-columns: none;
     grid-template-rows: auto 455px auto;
   }
+
   .Profile-name-container {
     grid-row-start: 1;
     grid-row-end: 1;
+  }
+
+  .Profile-name {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Profile-picture {
+    margin: auto;
   }
 }
 
