@@ -21,3 +21,15 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.Profile-horizontal-rule {
+  border: none;
+  color: #bbb;
+  background-color: #bbb;
+  height: 1px;
+}
+
+.Profile-bio {
+  padding: 17px;
+  color: #333;
+}
