@@ -25,8 +25,8 @@ export default function Profile(props) {
             929-310-4620<br/>
             SolomonRFeldman@gmail.com
           </p>
-          <a href='https://github.com/SolomonRFeldman' target="_blank" className='Profile-github'>
-            <img height="24" src='../GitHub-Mark-Light-32px.png' />
+          <a className='Profile-github' href='https://github.com/SolomonRFeldman' target="_blank" rel="noopener noreferrer" >
+            <img alt='GitHub Mark' height="24" src='../GitHub-Mark-Light-32px.png' />
             <span className='Profile-github-text'>Solomon's GitHub</span>
           </a>
         </div>
