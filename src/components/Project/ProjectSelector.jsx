@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './ProjectSelector.css'
 
-export default function ProjectSelector({PROJECTS}) {
-  const [selected, setSelected] = useState(1)
+export default function ProjectSelector({PROJECTS, selected, setSelected}) {
 
   return(
     <div className='ProjectSelector'>
