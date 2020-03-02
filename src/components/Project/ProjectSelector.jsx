@@ -1,14 +1,23 @@
 import React, { useState } from 'react'
 import './ProjectSelector.css'
 
-export default function ProjectSelector(props) {
-  const [selected, setSelected] = useState('0')
+export default function ProjectSelector({PROJECTS}) {
+  const [selected, setSelected] = useState(1)
 
   return(
     <div className='ProjectSelector'>
-      <ProjectTab id='0' selected={selected} setSelected={setSelected}>Good Writes</ProjectTab>
-      <ProjectTab id='1' selected={selected} setSelected={setSelected}>CKII Character Builder</ProjectTab>
-      <ProjectTab id='2' selected={selected} setSelected={setSelected}>Stocky</ProjectTab>
+      {PROJECTS.map(project => {
+        return (
+          <ProjectTab 
+            id={project.id} 
+            key={project.id} 
+            selected={selected} 
+            setSelected={setSelected}
+          >
+            {project.name}
+          </ProjectTab>
+        )
+      })}
     </div>
   )
 }
