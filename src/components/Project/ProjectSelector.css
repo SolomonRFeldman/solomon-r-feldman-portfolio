@@ -1,0 +1,24 @@
+.ProjectSelector-tab {
+  display: inline-block;
+  padding: 10px;
+  border: rgb(180, 180, 180);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0.3rem;
+  border-bottom: white;
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+  background-color: #EB6864;
+  color: white;
+}
+
+.ProjectSelector-tab.selected {
+  background-color: rgb(241, 74, 68);
+  border: gray;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0.3rem;
+  border-bottom: white;
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
