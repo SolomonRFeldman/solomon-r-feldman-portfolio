@@ -23,3 +23,7 @@
   border-bottom-left-radius: 0em;
   border-bottom-right-radius: 0em;
 }
+
+.ProjectSelector-tab:active {
+  background-color: rgb(240, 56, 50);
+}
