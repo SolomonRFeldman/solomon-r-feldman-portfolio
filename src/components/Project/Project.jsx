@@ -8,10 +8,10 @@ export default function Project({project}) {
         <img height='600px' src={project.background}></img>
       </div>
       <div className='Project-body'>
-        <div style={{display: 'inline-block'}} className='Project-description'>
+        <div style={{display: 'inline-block'}} className='Project-specs'>
           <h1 className='Project-name'>{project.name}</h1>
           <p className='Project-text'>
-            {project.description}
+            <div className='Project-description'>{project.description}</div>
             <ul className='Project-bullet-list'>{project.bullets.map(bullet => <li className='Project-bullet'>{bullet}</li>)}</ul>
           </p>
         </div>
