@@ -42,6 +42,7 @@
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: -1px;
+  margin-top: 0px;
 }
 
 .Project-text {
@@ -60,4 +61,39 @@
 .Project-bullet {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.Project-contact {
+  display: inline;
+  float: right;
+  margin-top: 57px;
+}
+
+.Project-link {
+  display: block;
+  color: #fff;
+  background-color: rgb(255, 100, 61);
+  padding: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  height: 24px;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+.Project-github-link-text {
+  text-align: center;
+  position: relative;
+  margin-left: 8px;
+  font-weight: 600;
+  bottom: 6px;
+}
+
+.Project-link-text {
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  bottom: -3px;
 }
