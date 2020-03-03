@@ -10,6 +10,7 @@
   border-bottom-right-radius: 0em;
   background-color: #EB6864;
   color: white;
+  text-decoration: none;
 }
 
 .ProjectSelector-tab.selected {

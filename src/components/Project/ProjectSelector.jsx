@@ -25,11 +25,14 @@ function ProjectTab({id, children, selected, setSelected}) {
   const isSelected = () => {
     return selected === id ? true : false
   }
-  const handleClick = () => setSelected(id)
+  const handleClick = event => {
+    event.preventDefault()
+    return setSelected(id)
+  }
 
   return(
-    <div key={id} className={`ProjectSelector-tab ${isSelected() ? 'selected' : null}`} onClick={handleClick}>
+    <a href='#' key={id} className={`ProjectSelector-tab ${isSelected() ? 'selected' : null}`} onClick={handleClick}>
       <span>{children}</span>
-    </div>
+    </a>
   )
 }
