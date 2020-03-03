@@ -28,7 +28,7 @@ const CK2_CHARACTER_BUILDER = {
   repo: `${GIT_HUB}ck2-character-builder`,
   website: `https://ck2characterbuilder.${DOMAIN_NAME}`,
   background: Ck2CharacterBuilderBackground,
-  description: 'Character Builder/Planner for persisting Crusader Kings 2 custom character builds',
+  description: 'Character Builder/Planner for persisting Crusader Kings II custom character builds',
   bullets: [
     "ES6 Vanilla Javascript syntax to program frontend interactions",
     "Vanilla Javascript front end to React",
