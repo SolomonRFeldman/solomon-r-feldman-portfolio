@@ -5,7 +5,7 @@ export default function Project({project}) {
   return(
     <div className='Project'>
       <div className='Project-background'>
-        <img height='600px' src={project.background}></img>
+        <img className='Project-image' src={project.background}></img>
       </div>
       <div className='Project-body'>
         <div style={{display: 'inline-block'}} className='Project-specs'>
