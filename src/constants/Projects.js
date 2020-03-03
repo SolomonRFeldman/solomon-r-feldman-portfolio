@@ -6,7 +6,7 @@ const DOMAIN_NAME = 'solomonfeldman.dev'
 const GIT_HUB = 'https://github.com/SolomonRFeldman/'
 
 const GOOD_WRITES = {
-  id: 1,
+  id: 2,
   name: 'Good Writes',
   repo: `${GIT_HUB}good-writes`,
   website: `https://goodwrites.${DOMAIN_NAME}`,
@@ -23,7 +23,7 @@ const GOOD_WRITES = {
 }
 
 const CK2_CHARACTER_BUILDER = {
-  id: 2,
+  id: 1,
   name: 'CKII Character Builder',
   repo: `${GIT_HUB}ck2-character-builder`,
   website: `https://ck2characterbuilder.${DOMAIN_NAME}`,
@@ -55,8 +55,8 @@ const STOCKY = {
 }
 
 const PROJECTS = [
-  GOOD_WRITES,
   CK2_CHARACTER_BUILDER,
+  GOOD_WRITES,
   STOCKY
 ]
 
