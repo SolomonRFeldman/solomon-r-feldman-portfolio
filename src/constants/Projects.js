@@ -1,3 +1,7 @@
+import GoodWritesBackground from '../backgrounds/goodwrites.png'
+import Ck2CharacterBuilderBackground from '../backgrounds/ck2_character_builder.png'
+import StockyBackground from '../backgrounds/stocky.png'
+
 const DOMAIN_NAME = 'solomonfeldman.dev'
 const GIT_HUB = 'https://github.com/SolomonRFeldman/'
 
@@ -6,6 +10,7 @@ const GOOD_WRITES = {
   name: 'Good Writes',
   repo: `${GIT_HUB}good-writes`,
   website: `https://goodwrites.${DOMAIN_NAME}`,
+  background: GoodWritesBackground,
   description: 'Writers workshop Rails/React App where users can share and workshop their writing',
   bullets: [
     "Developed a Rails API backend with endpoints for users, groups, and pieces",
@@ -22,6 +27,7 @@ const CK2_CHARACTER_BUILDER = {
   name: 'CKII Character Builder',
   repo: `${GIT_HUB}ck2-character-builder`,
   website: `https://ck2characterbuilder.${DOMAIN_NAME}`,
+  background: Ck2CharacterBuilderBackground,
   description: 'Character Builder/Planner for persisting Crusader Kings 2 custom character builds',
   bullets: [
     "Utilized ES6 Vanilla Javascript syntax to program frontend interactions",
@@ -41,6 +47,7 @@ const STOCKY = {
   name: 'Stocky',
   repo: `${GIT_HUB}stocky`,
   website: `https://stocky.${DOMAIN_NAME}`,
+  background: StockyBackground,
   description: 'Rails/React app for simulation stock buying/selling',
   bullets: [
     'Utilized 3rd party api to provide up to date stock information'
