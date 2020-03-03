@@ -13,12 +13,12 @@ const GOOD_WRITES = {
   background: GoodWritesBackground,
   description: 'Writers workshop Rails/React App where users can share and workshop their writing',
   bullets: [
-    "Developed a Rails API backend with endpoints for users, groups, and pieces",
-    "Enabled alternative login through Github OAuth",
-    "Implemented React / Redux frontend user interface with bootstrap styling",
-    "Utilized JSON web tokens and localStorage to encrypt and store user information",
-    "Converted full Rails front/back end app to Rails/React app",
-    "Utilized Test Driven Development with RSpec for backend"
+    "Rails API backend with endpoints for users, groups, and pieces",
+    "Alternative login through Github OAuth",
+    "React / Redux frontend user interface with bootstrap styling",
+    "JSON web tokens and localStorage to encrypt and store user information",
+    "Converted from full Rails front/back end app to Rails/React app",
+    "Test Driven Development with RSpec for backend"
   ]
 }
 
@@ -30,14 +30,14 @@ const CK2_CHARACTER_BUILDER = {
   background: Ck2CharacterBuilderBackground,
   description: 'Character Builder/Planner for persisting Crusader Kings 2 custom character builds',
   bullets: [
-    "Utilized ES6 Vanilla Javascript syntax to program frontend interactions",
-    "Converted Vanilla Javascript front end to React",
-    "Created a docker container out of both the front and backend",
-    "Stylized and scripted user interface using bootstrap, bootstrap-native, and react-bootstrap",
-    "Built Rails API backend to fetch and store character data",
-    "Utilized Jest and React-Testing-Library to test the frontend",
+    "ES6 Vanilla Javascript syntax to program frontend interactions",
+    "Vanilla Javascript front end to React",
+    "Dockerized front and back end",
     "Containerized using docker-compose",
-    "Directed traffic to the right port using Haproxy on the website’s server",
+    "Stylized and scripted with bootstrap, bootstrap-native, and react-bootstrap",
+    "Rails API backend that fetches and stores character data",
+    "Fully tested front end with Jest and React-Testing-Library",
+    "Directes traffic to the right port using Haproxy on the website’s server",
     "Built UI and controls to be compatible with mobile"
   ]
 }
@@ -50,7 +50,7 @@ const STOCKY = {
   background: StockyBackground,
   description: 'Rails/React app for simulation stock buying/selling',
   bullets: [
-    'Utilized 3rd party api to provide up to date stock information'
+    '3rd party api provides up to date stock information'
   ]
 }
 
