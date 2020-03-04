@@ -2,7 +2,7 @@
   .Profile {
     display: grid;
     grid-template-columns: 300px 20px auto;
-    grid-template-rows: 70px auto;
+    grid-template-rows: 70px 384px auto;
   }
 
   .Profile-name-container {
@@ -14,7 +14,7 @@
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-end: 3;
   }
 }
 
