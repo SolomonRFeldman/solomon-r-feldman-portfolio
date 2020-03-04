@@ -1,5 +1,5 @@
 .ProjectSelector-tab {
-  display: inline-block;
+  display: table-cell;
   padding: 10px;
   border: rgb(180, 180, 180);
   border-style: solid;
