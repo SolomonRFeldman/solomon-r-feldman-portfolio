@@ -31,7 +31,7 @@ const CK2_CHARACTER_BUILDER = {
   description: 'Character Builder/Planner for persisting Crusader Kings II custom character builds',
   bullets: [
     "ES6 Vanilla Javascript syntax to program frontend interactions",
-    "Vanilla Javascript front end to React",
+    "Converted vanilla Javascript front end to React",
     "Dockerized front and back end",
     "Containerized using docker-compose",
     "Stylized and scripted with bootstrap, bootstrap-native, and react-bootstrap",
