@@ -94,6 +94,14 @@
   width: fit-content;
 }
 
+.Profile-github:hover {
+  opacity: 0.95;
+}
+
+.Profile-github:active {
+  opacity: 1;
+}
+
 .Profile-github-text {
   text-align: center;
   position: relative;

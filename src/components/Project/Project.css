@@ -107,6 +107,14 @@
   bottom: 6px;
 }
 
+.Project-link:hover {
+  background-color: rgb(27, 168, 86);
+}
+
+.Project-link:active {
+  background-color: rgb(25, 160, 81);
+}
+
 .Project-link-text {
   text-align: center;
   font-weight: 600;
