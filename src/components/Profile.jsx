@@ -22,7 +22,6 @@ export default function Profile(props) {
         <hr className='Profile-horizontal-rule'/>
         <div className='Profile-contact'>
           <p>
-            929-310-4620<br/>
             SolomonRFeldman@gmail.com
           </p>
           <a className='Profile-github' href='https://github.com/SolomonRFeldman' target="_blank" rel="noopener noreferrer" >
