@@ -9,8 +9,9 @@ export default function Project({project}) {
       </div>
       <div className='Project-body'>
         <div style={{display: 'inline-block'}} className='Project-specs'>
-          <h1 className='Project-name'>{project.name}</h1>
           <p className='Project-text'>
+            <h1 className='Project-name'>{project.name}</h1>
+            <hr className='Project-horizontal-rule' />
             <div className='Project-description'>{project.description}</div>
             <ul className='Project-bullet-list'>{project.bullets.map(bullet => <li className='Project-bullet'>{bullet}</li>)}</ul>
           </p>
